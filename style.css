@@ -24,7 +24,7 @@ body{
     bottom: 400px;
 }
 
-.container-fluid img{
+#headshot{
     margin-left: 100px;
     margin-top: 100px;
     width: 20%;
@@ -47,9 +47,36 @@ h2{
 
 /* NAVBAR */
 .navButton{
-    --bs-btn-border-color: var(--white);
+    --bs-btn-border-color: none;
     --bs-btn-color: var(--white);
     --bs-btn-hover-bg: var(--maroon); 
+    font-size: medium;
 }
 
-/* HEADER */
+#linkedIn{
+    position: relative;
+    left: 1100px;
+    bottom: 600px;
+    border: none;
+    appearance: none;
+    background-color: inherit;
+}
+
+#linkedIn img{
+    display: block;
+    width: 7%;
+}
+
+#github{
+    position: relative;
+    left: 1105px;
+    bottom: 590px;
+    border: none;
+    appearance: none;
+    background-color: inherit;
+}
+
+#github img{
+    display: block;
+    width: 20%;
+}
