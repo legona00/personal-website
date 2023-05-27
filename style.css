@@ -1,0 +1,24 @@
+:root{
+    --maroon: #5a0000;
+    --white: #ffffff;
+    --light_maroon: #611111;
+    --gray: #cccccc;
+    --dark-gray: #212529;
+    --red: #dc3444;
+}
+
+body{
+    background-color: var(--maroon);
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    margin:auto;
+    color: var(--white);
+    text-align: center;
+    font-size: 50px;
+}
