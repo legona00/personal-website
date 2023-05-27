@@ -7,21 +7,34 @@
     --red: #dc3444;
 }
 
-body{
+html, body{
     background-color: var(white);
     height: 100%;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
     background-repeat: repeat;
     background-size: cover;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.container-fluid{
+    vertical-align: bottom;
+}
 
-.container-fluid div{
+.container-fluid .text{
     left: 500px;
     color: gray;
+    font-size: 20px;
     position: relative;
+    height: 20%;
     bottom: 400px;
+    width: fit-content;
+}
+
+#header{
+    margin-top: 100px;
 }
 
 #headshot{
@@ -33,7 +46,6 @@ body{
 }
 
 h1{
-    text-transform: uppercase;
     font: 2.5em;
     font-weight: bolder;
     letter-spacing: em;
@@ -64,7 +76,7 @@ h2{
 
 #linkedIn img{
     display: block;
-    width: 7%;
+    width: 2%;
 }
 
 #github{
@@ -78,5 +90,28 @@ h2{
 
 #github img{
     display: block;
-    width: 20%;
+    width: 2%;
 }
+
+h3{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.aboutme .text1{
+    margin-left: 800px;
+    color: gray
+}
+
+#tamu{
+    width:20%;
+    position: relative;
+    top: 200px;
+} 
+/* FOR DEBUGGING 
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }
+*/
