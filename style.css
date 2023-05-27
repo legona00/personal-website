@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: var(--maroon);
+    background-color: var(white);
     height: 100%;
     width: 100%;
     background-repeat: repeat;
@@ -16,9 +16,40 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-h1{
-    margin:auto;
-    color: var(--white);
-    text-align: center;
-    font-size: 50px;
+
+.container-fluid div{
+    left: 500px;
+    color: gray;
+    position: relative;
+    bottom: 400px;
 }
+
+.container-fluid img{
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 20%;
+    height: 20%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+h1{
+    text-transform: uppercase;
+    font: 2.5em;
+    font-weight: bolder;
+    letter-spacing: em;
+    color: black;
+}
+
+h2{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+/* NAVBAR */
+.navButton{
+    --bs-btn-border-color: var(--white);
+    --bs-btn-color: var(--white);
+    --bs-btn-hover-bg: var(--maroon); 
+}
+
+/* HEADER */
