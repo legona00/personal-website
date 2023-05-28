@@ -116,7 +116,7 @@ h3{
 
 .download-button{
     display: flex;
-    width:11%;
+    width:12%;
     margin-left: 800px;
     background-color: rgb(80,0,0);
     text-align: left;
@@ -125,8 +125,8 @@ h3{
     background-color: rgb(68, 1, 1);
 }
 .download-button img{
-    width: 10%;
-    float:inline-start;
+    width: 12%;
+    float:right;
 }
 /* FOR DEBUGGING 
 * {
