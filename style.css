@@ -20,6 +20,13 @@ html, body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.navbar{
+    display: block;
+    z-index: 1;
+    width:100%;
+    position: fixed;
+}
+
 .container-fluid{
     vertical-align: bottom;
     height:fit-content;
@@ -99,6 +106,7 @@ h2{
 h3{
     text-align: center;
     font-weight: bolder;
+    font-size: 50px;
 }
 
 .aboutme .text1{
@@ -120,6 +128,7 @@ h3{
     margin-left: 800px;
     background-color: rgb(80,0,0);
     text-align: left;
+    border:none;
 }
 .download-button:hover{
     background-color: rgb(68, 1, 1);
@@ -127,6 +136,129 @@ h3{
 .download-button img{
     width: 12%;
     float:right;
+}
+
+.experience{
+    margin-top: 300px;
+}
+
+h4{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+  
+  /* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+  
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.experience{
+    text-align: center;
+}
+.tab button{
+    background-color: white;
+    border: none;
+}
+.tab button:hover{
+    color: rgb(80,1,1);
+}
+
+.active{
+    color: rgb(80,1,1)
+}
+
+#verticalLine{
+    border-left: 3px solid rgb(80,0,0);
+    height: 400px;
+    left: 50%;
+    margin-left: -3px;
+    top: 20px;
+    position:relative;
+}
+#industrial-systems{
+    color: red;
+    position: relative;
+    left: 545px;
+    bottom: 300px;
+    font-size: 24px;
+    text-align: left;;
+}
+#project-manage{
+    color: red;
+    position: relative;
+    left: 812px;
+    bottom: 330px;
+    font-size: 24px;
+    text-align: left;
+}
+
+#RTR1{
+    position: relative;
+    bottom:315px;
+    right: 183px;
+}
+#RTR2{
+    position: relative;
+    bottom: 345px;
+    left: 84px;
+}
+
+#IT-Intern{
+    color:red;
+    position: relative;
+    bottom: 350px;
+    left: 65px;
+    font-size: 24px;
+}
+#credihogar{
+    position:relative;
+    bottom: 365px;
+    left: 58px;
+}
+.dot1{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    right:766px;
+    top: 38px;
+    background-color: rgb(80,0,0);
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot2{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    right:791px;
+    top: 182px;
+    background-color: rgb(80,0,0);
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot3{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    right:816px;
+    top: 280px;
+    background-color: rgb(80,0,0);
+    border-radius: 50%;
+    display: inline-block;
 }
 /* FOR DEBUGGING 
 * {
