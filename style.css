@@ -191,44 +191,48 @@ h4{
     position:relative;
 }
 #industrial-systems{
-    color: red;
     position: relative;
-    left: 545px;
-    bottom: 300px;
+    left: 540px;
+    bottom: 352px;
     font-size: 24px;
     text-align: left;;
 }
 #project-manage{
-    color: red;
     position: relative;
     left: 812px;
-    bottom: 330px;
+    bottom: 375px;
     font-size: 24px;
     text-align: left;
 }
 
 #RTR1{
+    color: rgb(80,0,0);
     position: relative;
-    bottom:315px;
-    right: 183px;
+    bottom:366px;
+    text-align: left;
+    left: 540px;
 }
 #RTR2{
+    color:rgb(80,0,0);
     position: relative;
-    bottom: 345px;
-    left: 84px;
+    bottom: 390px;
+    text-align: left;
+    left: 812px;
 }
 
 #IT-Intern{
-    color:red;
     position: relative;
     bottom: 350px;
-    left: 65px;
+    left: 68px;
     font-size: 24px;
 }
 #credihogar{
+    color:rgb(80,0,0);
     position:relative;
     bottom: 365px;
     left: 58px;
+    text-align: left;
+    left: 812px;
 }
 .dot1{
     position: relative;
@@ -245,7 +249,7 @@ h4{
     height: 20px;
     width: 20px;
     right:791px;
-    top: 182px;
+    top: 170px;
     background-color: rgb(80,0,0);
     border-radius: 50%;
     display: inline-block;
@@ -255,10 +259,49 @@ h4{
     height: 20px;
     width: 20px;
     right:816px;
-    top: 280px;
+    top: 300px;
     background-color: rgb(80,0,0);
     border-radius: 50%;
     display: inline-block;
+}
+#Standards{
+    position: relative;
+    font-size: 24px;
+    bottom: 350px;
+    left: 106px;
+}
+#FIA1{
+    position: relative;
+    color:rgb(80,0,0);
+    text-align: left;
+    left: 812px;
+    bottom: 365px;
+}
+#tech-affairs{
+    position: relative;
+    font-size: 24px;
+    right: 180px;
+    bottom: 335px;
+}
+#SHPE{
+    position: relative;
+    color:rgb(80,0,0);
+    text-align: left;
+    left: 458px;
+    bottom: 350px;
+}
+#marketing{
+    position: relative;
+    font-size: 24px;
+    bottom: 320px;
+    left: 181px;
+}
+#FIA2{
+    position: relative;
+    color:rgb(80,0,0);
+    text-align: left;
+    left: 810px;
+    bottom: 334px;
 }
 /* FOR DEBUGGING 
 * {
