@@ -303,6 +303,77 @@ h4{
     left: 810px;
     bottom: 334px;
 }
+h5{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px    
+}
+.standards-project{
+    margin-left:600px;
+    height:580px;
+    width:400px;
+    box-shadow: 0 4px 8px 0 rgb(80,1,1);
+}
+.standards-project img{
+    object-fit: cover;
+    width: 400px;
+}
+h6{
+    font-size: 24px;
+    font-style: bolder;
+    text-align: center;
+}
+.stand-button{
+    border-radius: 25px;
+    display: inline-block;
+    background-color: rgb(80,0,0);
+    color: #FFF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+.stand-button:hover{
+    text-decoration: none;
+}
+.links{
+    text-align: center  ;
+}
+.footer{
+    padding-top: 4rem;
+    margin-bottom: -100px;
+}
+.footer-bg{
+    background-color: rgb(80,1,1);
+    padding: 2rem 0 3rem;
+}
+
+#footer-text{
+    color:white;
+    margin-left: 300px;
+}
+#rights{
+    margin-top: 100px;
+    color:gray;
+    font-size: small;
+    text-align: center;
+}
+#linkedIn-foot{
+    position: relative;
+    left: 1300px;
+    bottom: 180px;
+}
+#linkedIn-foot img{
+    width: 6%;
+}
+#github-foot{
+    position: relative;
+    left: 1300px;
+    bottom: 180px;
+}
+#github-foot img{
+    width: 3%;
+}
 /* FOR DEBUGGING 
 * {
     background: #000 !important;
