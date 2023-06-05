@@ -309,14 +309,27 @@ h5{
     font-size: 50px    
 }
 .standards-project{
-    margin-left:600px;
+    margin-left:400px;
     height:580px;
     width:400px;
     box-shadow: 0 4px 8px 0 rgb(80,1,1);
+    float: left;
+    margin-top: -582px;
 }
 .standards-project img{
     object-fit: cover;
     width: 400px;
+}
+.zelda-project{
+    margin-left: 820px;
+    height: 580px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgb(80,1,1);
+}
+.zelda-project img{
+    object-fit: cover;
+    width:400px;
+    height: 171px;
 }
 h6{
     font-size: 24px;
@@ -337,7 +350,7 @@ h6{
     text-decoration: none;
 }
 .links{
-    text-align: center  ;
+    text-align: center;
 }
 .footer{
     padding-top: 4rem;
