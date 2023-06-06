@@ -20,51 +20,13 @@ html, body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.navbar{
-    display: block;
-    z-index: 1;
-    width:100%;
-    position: fixed;
-}
-
-.container-fluid{
-    vertical-align: bottom;
-    height:fit-content;
-}
-
-.container-fluid .text{
-    left: 500px;
-    color: gray;
-    font-size: 20px;
-    position: relative;
-    height: 20%;
-    bottom: 400px;
-    width: fit-content;
-}
-
-#header{
-    margin-top: 100px;
-    margin-bottom: -700px;
-}
-
-#headshot{
-    margin-left: 100px;
-    margin-top: 100px;
-    width: 20%;
-    height: 20%;
-    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-}
-
-h1{
-    font: 2.5em;
-    font-weight: bolder;
-    letter-spacing: em;
-    color: black;
-}
-
-h2{
-    font-size: 2em;
-    font-weight: bolder;
+@media (min-width: 600px){
+    h1{
+        font-size: 5em;
+    }
+    h2{
+        font-size: 3em;
+    }
 }
 
 /* NAVBAR */
@@ -74,319 +36,53 @@ h2{
     --bs-btn-hover-bg: var(--maroon); 
     font-size: medium;
 }
-
-#linkedIn{
-    position: relative;
-    left: 1096px;
-    bottom: 620px;
-    border: none;
-    appearance: none;
-    background-color: inherit;
-}
-
-#linkedIn img{
+.navbar{
     display: block;
-    width: 4%;
+    z-index: 1;
+    width:100%;
+    position: fixed;
 }
-
-#github{
-    position: relative;
-    left: 1104px;
-    bottom: 590px;
-    border: none;
-    appearance: none;
-    background-color: inherit;
+/* HEADER */
+.header{
+    margin-left: 10%;
+    margin-top: 20%;
 }
-
-#github img{
-    display: block;
-    width: 3%;
-}
-
-h3{
-    text-align: center;
-    font-weight: bolder;
-    font-size: 50px;
-}
-
-.aboutme .text1{
-    margin-top: 50px;
-    margin-left: 800px;
-    color: gray
-}
-
-#tamu{
-    width:40%;
-    position: relative;
-    top: 500px;
-    left: 150px;
-} 
-
-.download-button{
-    display: flex;
-    width:12%;
-    margin-left: 800px;
-    background-color: rgb(80,0,0);
-    text-align: left;
-    border:none;
-}
-.download-button:hover{
-    background-color: rgb(68, 1, 1);
-}
-.download-button img{
-    width: 12%;
-    float:right;
-}
-
-.experience{
-    margin-top: 300px;
-}
-
-h4{
-    text-align: center;
-    font-weight: bolder;
-    font-size: 50px
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    -webkit-animation: fadeEffect 1s;
-    animation: fadeEffect 1s;
-}
-  
-  /* Fade in tabs */
-@-webkit-keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-  
-@keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-.experience{
-    text-align: center;
-}
-.tab button{
-    background-color: white;
-    border: none;
-}
-.tab button:hover{
-    color: rgb(80,1,1);
-}
-
-.active{
-    color: rgb(80,1,1)
-}
-
-#verticalLine{
-    border-left: 3px solid rgb(80,0,0);
-    height: 400px;
-    left: 50%;
-    margin-left: -3px;
-    top: 20px;
-    position:relative;
-}
-#industrial-systems{
-    position: relative;
-    left: 540px;
-    bottom: 352px;
-    font-size: 24px;
-    text-align: left;;
-}
-#project-manage{
-    position: relative;
-    left: 812px;
-    bottom: 375px;
-    font-size: 24px;
-    text-align: left;
-}
-
-#RTR1{
-    color: rgb(80,0,0);
-    position: relative;
-    bottom:366px;
-    text-align: left;
-    left: 540px;
-}
-#RTR2{
-    color:rgb(80,0,0);
-    position: relative;
-    bottom: 390px;
-    text-align: left;
-    left: 812px;
-}
-
-#IT-Intern{
-    position: relative;
-    bottom: 350px;
-    left: 68px;
-    font-size: 24px;
-}
-#credihogar{
-    color:rgb(80,0,0);
-    position:relative;
-    bottom: 365px;
-    left: 58px;
-    text-align: left;
-    left: 812px;
-}
-.dot1{
-    position: relative;
-    height: 20px;
-    width: 20px;
-    right:766px;
-    top: 38px;
-    background-color: rgb(80,0,0);
-    border-radius: 50%;
-    display: inline-block;
-}
-.dot2{
-    position: relative;
-    height: 20px;
-    width: 20px;
-    right:791px;
-    top: 170px;
-    background-color: rgb(80,0,0);
-    border-radius: 50%;
-    display: inline-block;
-}
-.dot3{
-    position: relative;
-    height: 20px;
-    width: 20px;
-    right:816px;
-    top: 300px;
-    background-color: rgb(80,0,0);
-    border-radius: 50%;
-    display: inline-block;
-}
-#Standards{
-    position: relative;
-    font-size: 24px;
-    bottom: 350px;
-    left: 106px;
-}
-#FIA1{
-    position: relative;
-    color:rgb(80,0,0);
-    text-align: left;
-    left: 812px;
-    bottom: 365px;
-}
-#tech-affairs{
-    position: relative;
-    font-size: 24px;
-    right: 180px;
-    bottom: 335px;
-}
-#SHPE{
-    position: relative;
-    color:rgb(80,0,0);
-    text-align: left;
-    left: 458px;
-    bottom: 350px;
-}
-#marketing{
-    position: relative;
-    font-size: 24px;
-    bottom: 320px;
-    left: 181px;
-}
-#FIA2{
-    position: relative;
-    color:rgb(80,0,0);
-    text-align: left;
-    left: 810px;
-    bottom: 334px;
-}
-h5{
-    text-align: center;
-    font-weight: bolder;
-    font-size: 50px    
-}
-.standards-project{
-    margin-left:400px;
-    height:580px;
-    width:400px;
-    box-shadow: 0 4px 8px 0 rgb(80,1,1);
+.headshot{
     float: left;
-    margin-top: -582px;
 }
-.standards-project img{
-    object-fit: cover;
-    width: 400px;
+.headshot img{
+    width:30%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
-.zelda-project{
-    margin-left: 820px;
-    height: 580px;
-    width: 400px;
-    box-shadow: 0 4px 8px 0 rgb(80,1,1);
+h1{
+    font-weight: bolder;
 }
-.zelda-project img{
-    object-fit: cover;
-    width:400px;
-    height: 171px;
+h2{
+    font-weight: bolder;
+    color: gray;
 }
-h6{
-    font-size: 24px;
-    font-style: bolder;
-    text-align: center;
+#linkedIn{
+    display: block;
+    left:80%;
+    top: 10%;
+    position: fixed;
 }
-.stand-button{
-    border-radius: 25px;
-    display: inline-block;
-    background-color: rgb(80,0,0);
-    color: #FFF;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    margin-bottom: 2px;
-    text-decoration: none;
+#linkedIn img{
+    width: 60%;
 }
-.stand-button:hover{
-    text-decoration: none;
+#github{
+    display: block;
+    left:81%;
+    top:16%;
+    position: fixed;
 }
-.links{
-    text-align: center;
-}
-.footer{
-    padding-top: 4rem;
-    margin-bottom: -100px;
-}
-.footer-bg{
-    background-color: rgb(80,1,1);
-    padding: 2rem 0 3rem;
+#github img{
+    width: 55%;
 }
 
-#footer-text{
-    color:white;
-    margin-left: 300px;
-}
-#rights{
-    margin-top: 100px;
-    color:gray;
-    font-size: small;
-    text-align: center;
-}
-#linkedIn-foot{
-    position: relative;
-    left: 1300px;
-    bottom: 180px;
-}
-#linkedIn-foot img{
-    width: 6%;
-}
-#github-foot{
-    position: relative;
-    left: 1300px;
-    bottom: 180px;
-}
-#github-foot img{
-    width: 4%;
-}
+/* ABOUT ME*/
+
+
 /* FOR DEBUGGING 
 * {
     background: #000 !important;
