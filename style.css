@@ -116,6 +116,122 @@ h2{
     margin-top: 30%;
     text-align: center;
 }
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+  
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.tab button{
+    background-color: white;
+    border: none;
+}
+.tab button:hover{
+    color: rgb(80,1,1);
+}
+
+.active{
+    color: rgb(80,1,1)
+}
+/*Style the line and dots displaying work experience/extracurriculars*/
+#verticalLine{
+    border-left: 3px solid rgb(80,0,0);
+    height: 400px;
+    left: 50%;
+    top: 20px;
+    position:relative;
+}
+
+.dot1{
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    margin-left: -52.7%;
+    margin-top: 20%;
+    background-color: rgb(80,0,0);
+    border-radius: 50%;
+    display: inline-flex;
+}
+.dot2{
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    margin-left: -52.7%;
+    margin-top: 50%;
+    background-color: rgb(80,0,0);
+    border-radius: 50%;
+    display: inline-flex;
+}
+.dot3{
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    margin-left: -52.7%;
+    margin-top: 82%;
+    background-color: rgb(80,0,0);
+    border-radius: 50%;
+    display: inline-flex;
+}
+.tabText{
+    text-align: left;
+    line-height: 90%;
+}
+.ITIntern{
+    position: relative;
+    bottom: 308px;
+    left: 200px;
+    font-weight: bold;
+    font-size: large;
+}
+.credihogar{
+    position: relative;
+    left:200px;
+    bottom: 317px;
+    font-size: small;
+    color:rgb(68, 1, 1)
+}
+.project-management{
+    position: relative;
+    bottom: 296px;
+    left: 30px;
+    font-weight: bold;
+    font-size: large;
+}
+.RTR1{
+    position: relative;
+    left:30px;
+    bottom: 305px;
+    font-size: small;
+    color:rgb(68, 1, 1)
+}
+.industrial-systems{
+    position: relative;
+    bottom: 278px;
+    left: 200px;
+    font-weight: bold;
+    font-size: large;
+}
+.RTR2{
+    position: relative;
+    left: 200px;
+    bottom: 285px;
+    font-size: small;
+    color:rgb(68, 1, 1)
+}
+
+
 /* FOR DEBUGGING 
 * {
     background: #000 !important;
