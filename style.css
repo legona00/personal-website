@@ -61,28 +61,61 @@ h2{
     font-weight: bolder;
     color: gray;
 }
-#linkedIn{
-    display: block;
-    left:80%;
-    top: 10%;
-    position: fixed;
-}
 #linkedIn img{
-    width: 60%;
-}
-#github{
-    display: block;
-    left:81%;
-    top:16%;
-    position: fixed;
+    margin-top: -160%;
+    margin-left: 75%;
+    width: 20%;
 }
 #github img{
-    width: 55%;
+    margin-top: -140%;
+    margin-left: 77%;
+    width: 15%;
 }
 
 /* ABOUT ME*/
+.aboutme{
+    margin-top: 20%;
+    text-align: center;
+}
+.aboutText{
+    color:gray;
+    text-align: initial;
+    font-size: small;
+    margin-left: 40%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+#tamu{
+    position: relative;
+    margin-top: -120%;
+    margin-left: -100%;
+    width: 700%;
+}
+.download-button{
+    margin-left: 30%;
+    width:40%;
+    margin-top: -10%;
+    background-color: rgb(80,0,0);
+    text-align: left;
+    font-size: small;
+    border:none;
+}
+.download-button:hover{
+    background-color: rgb(68, 1, 1);
+}
+.download-button img{
+    margin-top: 3px;
+    width: 10%;
+    float: right;
+}
 
-
+/* EXPERIENCE */
+.experience{
+    margin-top: 30%;
+    text-align: center;
+}
 /* FOR DEBUGGING 
 * {
     background: #000 !important;
