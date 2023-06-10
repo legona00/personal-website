@@ -38,9 +38,9 @@
                 <img src="img/headshot.jpg" alt="Leonardo Gonzalez Navarro">
             </div>
             <div class="text" style="display: inline-block;">
-                <h1 >Howdy, I'm <br>Leo Gonzalez</h1>
+                <h6>Howdy, I'm <br>Leo Gonzalez</h6>
                 <h2>Junior in Computer Science</h2>
-                <p style="color:gray; font-size: small;">
+                <p id="paragraph" style="color:gray; font-size: small;">
                     Actively seeking internship opportunities for summer 2024<br>
                     Eager to learn and gain high-level experience<br>
                     Check out my accomplishments and resume below!
@@ -52,13 +52,13 @@
         <div class="aboutme">
             <a id="about-me"></a>
             <h1> ABOUT ME</h1>
-            <p style="color:gray; font-size: small;">Who am I?</p>
+            <p id="paragraph" style="color:gray; font-size: small;">Who am I?</p>
             <div class="container">
                 <div class="tamuPic">
                     <img id="tamu" src="img/tamu.png" alt="Texas A&M">
                 </div>
                 <div class="aboutText">
-                    <p>
+                    <p id="paragraph">
                         Computer Science student at Texas A&M University. <br>
                         Aspiring fullstack developer.<br>
                         Delivering quality work and eager to learn and grow
@@ -67,15 +67,14 @@
             </div>
         </div>
 
+        <a href="file_path" download="img/Final_Resume.pdf"></a>           
         <button type="submit" class="btn btn-primary download-button" onclick="window.open('img/Final_Resume.pdf')">
-            Download Resume
-            <img src="img/download.png">
-            <a href="file_path" download="img/Final_Resume.pdf"></a>
+            Download Resume&nbsp; 
         </button>
 
         <div class="experience">
             <h1>EXPERIENCE</h1>
-            <p style="color: gray; font-size: small;">How did I get here?</p>
+            <p id="paragraph" style="color: gray; font-size: small;">How did I get here?</p>
             <div class="tab">
                 <button id="defaultOpen" class="tablinks active" onclick="openTab(event, 'Work')">Work &#9776</button>
                 <button class="tablinks" onclick="openTab(event, 'Extracurriculars')">Extracurriculars &#9733;</button>
@@ -88,55 +87,40 @@
                     <span class="dot3"></span>
                 </div>
                 <div class="tabText">
-                    <div class="ITIntern">
+                    <div class="right1">
                         <p>
                             IT Intern
                         </p>
                     </div>
-                    <div class="credihogar">
+                    <div class="right1sub">
                         <p>
                             Credihogar<br>
                             <em>June 2023-August 2023</em>
                         </p>
                     </div>
-                    <div class="project-management">
+                    <div class="left1">
                         <p>
                             Project<br>Management<br>Intern
                         </p>
                     </div>
-                    <div class="RTR1">
+                    <div class="left1sub">
                         <p>
                             Rent the Runway Inc.<br>
                             <em>June 2023-August 2023</em>
                         </p>
                     </div>
-                    <div class="industrial-systems">  
+                    <div class="right2">  
                         <p>
                             Industrial Systems<br>Intern
                         </p>
                     </div>
-                    <div class="RTR2">
+                    <div class="right2sub">
                         <p>
                             Rent the Runway Inc.<br>
                             <em>June 2022-August 2022</em>
                         </p> 
                     </div>
                 </div>
-            </div>
-        </div>
-<!--
-        <div class="experience">
-
-
-            <div id="Work" class="tabcontent">
-
-                <p id="project-manage">
-                    Industrial Systems<br> Intern
-                    <p id="RTR2">
-                        Rent The Runway Inc.<br>
-                        <em>June 2022-August 2022</em>
-                    </p>
-                </p>
             </div>
 
             <div id="Extracurriculars" class="tabcontent">
@@ -145,87 +129,99 @@
                     <span class="dot2"></span>
                     <span class="dot3"></span>
                 </div>
-                <p id="Standards">
-                    VP of Standards
-                    <p id="FIA1">
-                        Phi Iota Alpha Fraternity Inc.<br>
+                <div class="tabText">
+                    <div class="right1">
+                        <p>
+                            VP of Standards
+                        </p>
+                    </div>
+                    <div class="right1sub">
+                        Phi Iota Alpha<br>Fraternity Inc.<br>
                         <em>April 2023-Present</em>
-                    </p>
-                </p>
-                <p id="tech-affairs">
-                    Technical Affairs Committee
-                    <p id="SHPE">
-                        Society of Hispanic Professional Engineers <br>
-                        <em>August 2022-Present</em>
-                    </p>
-                </p>
-                <p id="marketing">
-                    Director of Internal Marketing
-                    <p id="FIA2">
-                        Phi Iota Alpha Fraternity Inc.<br>
-                        <em>April 2022-April 2023</em>
-                    </p>
-                </p>
+                    </div>
+                    <div class="left1">
+                        <p>
+                            Tech Affairs<br>Committee
+                        </p>
+                    </div>
+                    <div class="left1sub">
+                        <p>
+                            Society of Hispanic<br>Professional Engineers<br>
+                            <em>August 2022-Present</em>
+                        </p>
+                    </div>
+                    <div class="right2">  
+                        <p>
+                            Director of Internal<br>Marketing
+                        </p>
+                    </div>
+                    <div class="right2sub">
+                        <p>
+                            Phi Iota Alpha<br>Fraternity Inc.<br>
+                            <em>April 2022-April 2023</em>
+                        </p> 
+                    </div>
+                </div>
             </div>
         </div>
-        <a id="projects"></a>
-        <div class="projects" style="width:100%;">
-            <h5>PROJECTS</h5>
-            <p style="text-align: center; color: gray; margin-top: -15px;">What have I done?</p>
-            <div class="zelda-project">
-                <img src="img/zelda.jpg">
+
+        <div class="projects">
+            <h1>PROJECTS</h1>
+            <p id="paragraph" style="color: gray; font-size: small; text-align: center;">What have I done?</p>
+            <div class="projectBox">
+                <!-- Standards Project -->
+                <img src="img/phiotasBackground.png">
                 <div class="text-contain">
-                    <h6>
-                        Legend of Zelda
-                    </h6>
+                    <h3>Standards</h3>
                     <div class="links">
-                        <a href="https://github.com/legona00/zelda" class="stand-button" target="_blank">Github</a>
+                        <a href="https://github.com/legona00/tamufiastandards" class="stand-button" target="_blank">Github</a>
+                        <a href="https://script.google.com/macros/s/AKfycbyFLjr_kjSyoRCUQIT16Qh4J7jgWn1RFNv2pwuKrfg/dev" class="stand-button" target="_blank">Web App</a>
                     </div>
-                    <p style="margin-left:10px;">
-                        Created a game based on Legend of Zelda. Has functioning enemy AI, upgrade menu and player development system.
-                        Made using Python's pygame game development module and Tiled for level creation.<br><br>
+                    <p>
+                        Built a website to keep track of accumulated sanctions by members of the fraternity.
+                        Utilized google sheets and forms to collect attendance and excused absence forms
+                        Stored all data on google sheets, which update automatically once a mandatory event passed.
                     </p>
                 </div>
                 <div class="code-type">
-                    <h6>
-                        Skills Required
-                    </h6>
-                    <ul class="zelda-list">
+                    <h3>Skills Required</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>HTML & CSS</li>
+                        <li> Google Apps</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="projectBox">
+                <img src="img/zelda.jpg">
+                <div class="text-contain">
+                    <h3>Legend of Zelda</h3>
+                    <div class="links">
+                        <a href="https://github.com/legona00/zelda" class="stand-button" target="_blank">Github</a>
+                    </div>
+                    <p>
+                        Created a game based on Legend of Zelda. 
+                        Has functioning enemy AI, upgrade menu and player development system. 
+                        Made using Python's pygame game development module and Tiled for level creation.
+                    </p>
+                </div>
+                <div class="code-type">
+                    <h3>Skills Required</h3>
+                    <ul>
                         <li>Python</li>
                         <li>Tiled</li>
                         <li>Excel</li>
                     </ul>
                 </div>
             </div>
-            <div class="standards-project">
-                <img src="img/phiotasBackground.png">
-                <div class="text-contain">
-                    <h6>
-                        Standards
-                    </h6>
-                    <div class="links">
-                        <a href="https://github.com/legona00/personal-website" class="stand-button" target="_blank">Github</a>
-                    </div>
-                    <p style="margin-left:10px;">
-                        Built a website to keep track of accumulated sanctions by members of the fraternity.
-                        Utilized google sheets and forms to collect attendance and excused absence forms
-                        Stored all data on google sheets, which update automatically once a<br> mandatory event passed.
-                    </p>
-                </div>
-                <div class="code-type">
-                    <h6>
-                        Skills Required
-                    </h6>
-                    <ul>
-                        <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>HTML and CSS</li>
-                        <li>Google Apps</li>
-                    </ul>
-                </div>
-            </div>
         </div>
-
+        <footer class="footer">
+            <h4>Leo Gonzalez</h4>
+            <h5>© legona00.github.io/personal-website All right reserved</h4>
+        </footer>
+<!--
+        
         <footer class="footer">
             <div class="footer-bg">
                 <div>

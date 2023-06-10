@@ -7,6 +7,11 @@
     --red: #dc3444;
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: white;
+}
+
 html, body{
     scroll-behavior: smooth;
     background-color: var(white);
@@ -21,11 +26,86 @@ html, body{
 }
 
 @media (min-width: 600px){
+    h6{
+        font-size: 4rem !important;
+    }
     h1{
-        font-size: 5em;
+        font-size: 4rem !important;
     }
     h2{
         font-size: 3em;
+    }
+    .text{
+        margin-left: -300px !important;
+    }
+    .headshot img{
+        width: 50% !important;
+    }
+    #paragraph{
+        font-size: 1.5rem !important;
+    }
+    .aboutText{
+        margin-top: 100px !important;
+    }
+    .download-button{
+        width: 20% !important;
+        font-size: large !important;
+        margin-left: 600px !important;
+        padding-left: 90px;
+    }
+    .dot1{
+        height: 1.25rem !important;
+        width: 1.25rem !important;
+        left: 819px !important;
+        margin-top: 0 !important;
+        top: 65px !important;
+    }
+    .dot2{
+        height: 1.25rem !important;
+        width: 1.25rem !important;
+        left: 819px !important;
+        margin-top: 10px !important;
+        top: 180px !important;
+    }
+    .dot3{
+        height: 1.25rem !important;
+        width: 1.25rem !important;
+        left: 819px !important;
+        margin-top: 20px !important;
+        top: 300px !important;
+    }
+    .right1{
+        margin-left: 40%;
+        margin-top: -.2%; 
+        font-size: 2rem !important;
+    }
+    .right1sub{
+        font-size: 1rem !important;
+        margin-top: 1.5%;
+        margin-left: 40%;
+    }
+    .left1{
+        margin-left: 34%;
+        margin-top: -.2%;
+        font-size: 2rem !important;
+        line-height: 100%;
+    }
+    .left1sub{
+        margin-left: 34%;
+        font-size: 1rem !important;
+    }
+    .right2{
+        margin-left: 40%;
+        margin-top: -1.6%;   
+        font-size: 2rem !important;
+        line-height: 100%;
+    }
+    .right2sub{
+        margin-left: 40%;
+        font-size: 1rem !important;
+    }
+    #linkedIn img{
+        margin-right: -1400px !important;
     }
 }
 
@@ -55,6 +135,12 @@ html, body{
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
 h1{
+    font-weight: bolder;
+    text-align: center;
+}
+h6{
+    font-size: 2rem;
+    text-align: left;
     font-weight: bolder;
 }
 h2{
@@ -94,11 +180,12 @@ h2{
     width: 700%;
 }
 .download-button{
-    margin-left: 30%;
-    width:40%;
+    display: flex;
+    margin-left: 33%;
+    width: fit-content;
     margin-top: -10%;
     background-color: rgb(80,0,0);
-    text-align: left;
+    text-align: center;
     font-size: small;
     border:none;
 }
@@ -109,6 +196,9 @@ h2{
     margin-top: 3px;
     width: 10%;
     float: right;
+}
+.download-button :active{
+    background-color:  rgb(39, 0, 0);
 }
 
 /* EXPERIENCE */
@@ -188,47 +278,96 @@ h2{
     text-align: left;
     line-height: 90%;
 }
-.ITIntern{
+.right1{
     position: relative;
     bottom: 308px;
     left: 200px;
     font-weight: bold;
     font-size: large;
 }
-.credihogar{
+.right1sub{
     position: relative;
     left:200px;
     bottom: 317px;
     font-size: small;
     color:rgb(68, 1, 1)
 }
-.project-management{
+.left1{
     position: relative;
     bottom: 296px;
     left: 30px;
     font-weight: bold;
     font-size: large;
 }
-.RTR1{
+.left1sub{
     position: relative;
     left:30px;
     bottom: 305px;
     font-size: small;
     color:rgb(68, 1, 1)
 }
-.industrial-systems{
+.right2{
     position: relative;
     bottom: 278px;
     left: 200px;
     font-weight: bold;
     font-size: large;
 }
-.RTR2{
+.right2sub{
     position: relative;
     left: 200px;
     bottom: 285px;
     font-size: small;
     color:rgb(68, 1, 1)
+}
+.projectBox{
+    margin-left: 15%;
+    text-align: center;
+    height:80%;
+    width:70%;
+    box-shadow: 0 4px 8px 0 rgb(80,1,1);
+}
+.projectBox img{
+    text-align: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(80,1,1);
+}
+h3{
+    text-align: center;
+}
+.stand-button{
+    text-decoration: none !important;
+    border-radius: 25px;
+    display: inline-block;
+    background-color: rgb(80,0,0);
+    color: #FFF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+
+.stand-button:hover{
+    text-decoration: none;
+}
+.code-type ul{
+    text-align: left;
+}
+footer{
+    padding: 2% 0 0 2%;
+    background-color: rgb(80,1,1);
+    box-shadow: 0 50vh 0 50vh rgb(80,1,1);
+
+}
+h4{
+    color:white;
+}
+h5{
+    text-align: center;
+    font-size: small;
+    color:gray;
 }
 
 
