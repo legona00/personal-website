@@ -1,4 +1,4 @@
-:root{
+:root {
     --maroon: #5a0000;
     --white: #ffffff;
     --light_maroon: #611111;
@@ -7,12 +7,16 @@
     --red: #dc3444;
 }
 
-a, a:hover, a:focus, a:active {
+a,
+a:hover,
+a:focus,
+a:active {
     text-decoration: none;
     color: white;
 }
 
-html, body{
+html,
+body {
     scroll-behavior: smooth;
     background-color: var(white);
     height: 100%;
@@ -22,187 +26,195 @@ html, body{
     overflow-x: hidden;
     background-repeat: repeat;
     background-size: cover;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
 }
 
-@media (min-width: 600px){
-    h6{
+@media (min-width: 600px) {
+    h6 {
         font-size: 4rem !important;
     }
-    h1{
+    h1 {
         font-size: 4rem !important;
     }
-    h2{
+    h2 {
         font-size: 3em;
     }
-    .text{
+    .text {
         margin-left: -300px !important;
     }
-    .headshot img{
+    .headshot img {
         width: 50% !important;
     }
-    #paragraph{
+    #paragraph {
         font-size: 1.5rem !important;
     }
-    .aboutText{
+    .aboutText {
         margin-top: 100px !important;
     }
-    .download-button{
+    .download-button {
         width: 20% !important;
         font-size: large !important;
-        margin-left: 600px !important;
-        padding-left: 90px;
+        margin-left: 50% !important;
+        padding-left: 6.5% !important;
     }
-    .dot1{
+
+    .dot1 {
+        position: relative !important;
+        display: table !important;
+        margin: 0 auto !important;
         height: 1.25rem !important;
         width: 1.25rem !important;
-        left: 819px !important;
         margin-top: 0 !important;
-        top: 65px !important;
+        top: 100px !important;
     }
-    .dot2{
+    .dot2 {
+        position: relative !important;
+        display: table !important;
+        margin: 0 auto !important;
         height: 1.25rem !important;
         width: 1.25rem !important;
-        left: 819px !important;
         margin-top: 10px !important;
         top: 180px !important;
     }
-    .dot3{
+    .dot3 {
+        position: relative !important;
+        display: table !important;
+        margin: 0 auto !important;
         height: 1.25rem !important;
         width: 1.25rem !important;
-        left: 819px !important;
         margin-top: 20px !important;
         top: 300px !important;
     }
-    .right1{
+    .right1 {
         margin-left: 40%;
-        margin-top: -.2%; 
+        margin-top: -0.2%;
         font-size: 2rem !important;
     }
-    .right1sub{
+    .right1sub {
         font-size: 1rem !important;
         margin-top: 1.5%;
         margin-left: 40%;
     }
-    .left1{
+    .left1 {
         margin-left: 34%;
-        margin-top: -.2%;
+        margin-top: -0.2%;
         font-size: 2rem !important;
         line-height: 100%;
     }
-    .left1sub{
+    .left1sub {
         margin-left: 34%;
         font-size: 1rem !important;
     }
-    .right2{
+    .right2 {
         margin-left: 40%;
-        margin-top: -1.6%;   
+        margin-top: -1.6%;
         font-size: 2rem !important;
         line-height: 100%;
     }
-    .right2sub{
+    .right2sub {
         margin-left: 40%;
         font-size: 1rem !important;
     }
-    #linkedIn img{
+    #linkedIn img {
         margin-right: -1400px !important;
     }
 }
 
 /* NAVBAR */
-.navButton{
+.navButton {
     --bs-btn-border-color: none;
     --bs-btn-color: var(--white);
-    --bs-btn-hover-bg: var(--maroon); 
+    --bs-btn-hover-bg: var(--maroon);
     font-size: medium;
 }
-.navbar{
+.navbar {
     display: block;
     z-index: 1;
-    width:100%;
+    width: 100%;
     position: fixed;
 }
 /* HEADER */
-.header{
+.header {
     margin-left: 10%;
     margin-top: 20%;
 }
-.headshot{
+.headshot {
     float: left;
 }
-.headshot img{
-    width:30%;
+.headshot img {
+    width: 30%;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
-h1{
+h1 {
     font-weight: bolder;
     text-align: center;
 }
-h6{
+h6 {
     font-size: 2rem;
     text-align: left;
     font-weight: bolder;
 }
-h2{
+h2 {
     font-weight: bolder;
     color: gray;
 }
-#linkedIn img{
+#linkedIn img {
     margin-top: -160%;
     margin-left: 75%;
     width: 20%;
 }
-#github img{
+#github img {
     margin-top: -140%;
     margin-left: 77%;
     width: 15%;
 }
 
 /* ABOUT ME*/
-.aboutme{
+.aboutme {
     margin-top: 20%;
     text-align: center;
 }
-.aboutText{
-    color:gray;
+.aboutText {
+    color: gray;
     text-align: initial;
     font-size: small;
     margin-left: 40%;
 }
-.container{
+.container {
     display: grid;
     grid-template-columns: 1fr 10fr;
 }
-#tamu{
+#tamu {
     position: relative;
     margin-top: -120%;
     margin-left: -100%;
     width: 700%;
 }
-.download-button{
+.download-button {
     display: flex;
     margin-left: 33%;
     width: fit-content;
     margin-top: -10%;
-    background-color: rgb(80,0,0);
+    background-color: rgb(80, 0, 0);
     text-align: center;
     font-size: small;
-    border:none;
+    border: none;
 }
-.download-button:hover{
+.download-button:hover {
     background-color: rgb(68, 1, 1);
 }
-.download-button img{
+.download-button img {
     margin-top: 3px;
     width: 10%;
     float: right;
 }
-.download-button :active{
-    background-color:  rgb(39, 0, 0);
+.download-button :active {
+    background-color: rgb(39, 0, 0);
 }
 
 /* EXPERIENCE */
-.experience{
+.experience {
     margin-top: 30%;
     text-align: center;
 }
@@ -215,161 +227,162 @@ h2{
 }
 
 @-webkit-keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-  
-@keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-.tab button{
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.tab button {
     background-color: white;
     border: none;
 }
-.tab button:hover{
-    color: rgb(80,1,1);
+.tab button:hover {
+    color: rgb(80, 1, 1);
 }
 
-.active{
-    color: rgb(80,1,1)
+.active {
+    color: rgb(80, 1, 1);
 }
 /*Style the line and dots displaying work experience/extracurriculars*/
-#verticalLine{
-    border-left: 3px solid rgb(80,0,0);
+#verticalLine {
+    border-left: 3px solid rgb(80, 0, 0);
     height: 400px;
-    left: 50%;
+    margin-left: 49.94%;
     top: 20px;
-    position:relative;
 }
 
-.dot1{
-    position: absolute;
-    height: 1rem;
-    width: 1rem;
-    margin-left: -52.7%;
-    margin-top: 20%;
-    background-color: rgb(80,0,0);
-    border-radius: 50%;
-    display: inline-flex;
+.dot1 {
+    position: relative !important;
+    display: table !important;
+    margin: 0 auto !important;
+    height: 1.25rem !important;
+    width: 1.25rem !important;
+    margin-top: 20px !important;
+    top: 300px !important;
 }
-.dot2{
-    position: absolute;
-    height: 1rem;
-    width: 1rem;
-    margin-left: -52.7%;
-    margin-top: 50%;
-    background-color: rgb(80,0,0);
-    border-radius: 50%;
-    display: inline-flex;
+.dot2 {
+    position: relative !important;
+    display: table !important;
+    margin: 0 auto !important;
+    height: 1.25rem !important;
+    width: 1.25rem !important;
+    margin-top: 20px !important;
+    top: 300px !important;
 }
-.dot3{
-    position: absolute;
-    height: 1rem;
-    width: 1rem;
-    margin-left: -52.7%;
-    margin-top: 82%;
-    background-color: rgb(80,0,0);
-    border-radius: 50%;
-    display: inline-flex;
+.dot3 {
+    position: relative !important;
+    display: table !important;
+    margin: 0 auto !important;
+    height: 1.25rem !important;
+    width: 1.25rem !important;
+    margin-top: 20px !important;
 }
-.tabText{
+.tabText {
     text-align: left;
     line-height: 90%;
 }
-.right1{
+.right1 {
     position: relative;
     bottom: 308px;
     left: 200px;
     font-weight: bold;
     font-size: large;
 }
-.right1sub{
+.right1sub {
     position: relative;
-    left:200px;
+    left: 200px;
     bottom: 317px;
     font-size: small;
-    color:rgb(68, 1, 1)
+    color: rgb(68, 1, 1);
 }
-.left1{
+.left1 {
     position: relative;
     bottom: 296px;
     left: 30px;
     font-weight: bold;
     font-size: large;
 }
-.left1sub{
+.left1sub {
     position: relative;
-    left:30px;
+    left: 30px;
     bottom: 305px;
     font-size: small;
-    color:rgb(68, 1, 1)
+    color: rgb(68, 1, 1);
 }
-.right2{
+.right2 {
     position: relative;
     bottom: 278px;
     left: 200px;
     font-weight: bold;
     font-size: large;
 }
-.right2sub{
+.right2sub {
     position: relative;
     left: 200px;
     bottom: 285px;
     font-size: small;
-    color:rgb(68, 1, 1)
+    color: rgb(68, 1, 1);
 }
-.projectBox{
+.projectBox {
     margin-left: 15%;
     text-align: center;
-    height:80%;
-    width:70%;
-    box-shadow: 0 4px 8px 0 rgb(80,1,1);
+    height: 80%;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgb(80, 1, 1);
 }
-.projectBox img{
+.projectBox img {
     text-align: center;
     object-fit: cover;
     width: 100%;
     height: 100%;
-    border: 1px solid rgb(80,1,1);
+    border: 1px solid rgb(80, 1, 1);
 }
-h3{
+h3 {
     text-align: center;
 }
-.stand-button{
+.stand-button {
     text-decoration: none !important;
     border-radius: 25px;
     display: inline-block;
-    background-color: rgb(80,0,0);
-    color: #FFF;
+    background-color: rgb(80, 0, 0);
+    color: #fff;
     padding: 1rem;
     border-radius: 0.5rem;
     margin-bottom: 2px;
     text-decoration: none;
 }
 
-.stand-button:hover{
+.stand-button:hover {
     text-decoration: none;
 }
-.code-type ul{
+.code-type ul {
     text-align: left;
 }
-footer{
+footer {
     padding: 2% 0 0 2%;
-    background-color: rgb(80,1,1);
-    box-shadow: 0 50vh 0 50vh rgb(80,1,1);
-
+    background-color: rgb(80, 1, 1);
+    box-shadow: 0 50vh 0 50vh rgb(80, 1, 1);
 }
-h4{
-    color:white;
+h4 {
+    color: white;
 }
-h5{
+h5 {
     text-align: center;
     font-size: small;
-    color:gray;
+    color: gray;
 }
-
 
 /* FOR DEBUGGING 
 * {
